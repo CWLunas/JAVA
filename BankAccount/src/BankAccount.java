@@ -59,7 +59,7 @@ public class BankAccount {
                 totalMoney -= amount;
                 System.out.println("Successfully withdrew $" + amount + " from checking account.");
             } else {
-                System.out.println("Insufficient funds in checking account.");
+                System.out.println("Insufficient funds in checking account " + accountNumber + ".");
                 return;
             }
         } else if (accountType.equalsIgnoreCase("savings")) {
@@ -68,7 +68,7 @@ public class BankAccount {
                 totalMoney -= amount;
                 System.out.println("Successfully withdrew $" + amount + " from savings account.");
             } else {
-                System.out.println("Insufficient funds in savings account.");
+                System.out.println("Insufficient funds in savings account " + accountNumber + ".");
                 return;
             }
         }
