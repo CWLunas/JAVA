@@ -9,6 +9,7 @@ public class BankTest {
         account1.deposit(1525, "checking");
         account2.deposit(2900, "savings");
         account3.deposit(500, "checking");
+        account3.deposit(300, "savings");
 
         // Withdrawal Test
         account1.withdraw(200, "checking");
