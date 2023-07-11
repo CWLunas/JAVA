@@ -12,8 +12,8 @@ public class BankTest {
         account3.deposit(300, "savings");
 
         // Withdrawal Test
-        account1.withdraw(200, "checking");
-        account2.withdraw(500, "savings");
+        account1.withdraw(25, "checking");
+        account2.withdraw(900, "savings");
         account3.withdraw(1000, "savings");
 
         // Static Test
