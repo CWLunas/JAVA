@@ -11,7 +11,7 @@
 </head>
 <body>
     <h1>Omikuji Fortune</h1>
-    <p class="center" style="width: 75%">
+    <p>
         In ${selectedNumber} years, you will live in ${city} with ${person} as your room mate,
         working as a/an ${endeavor} for a living. The next time you see a ${creature}, you will have great luck.
         ${niceMessage}.
