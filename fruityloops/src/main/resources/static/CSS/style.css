@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+
+
+h1 {
+    color: rebeccapurple;
+    text-align: center;
+    padding: 70px 30px 30px 10px;
+}
+
+/* Set common styles for th and td */
+th, td {
+    border-bottom: 3px solid #ddd;
+    text-align: center;
+    width: 33.33%;
+}
+
+/* Styles for table header (th) */
+th {
+    background-color: red;
+    color: white;
+}
+
+/* Center the table */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Set the font size and weight for the header */
+.header {
+    font-size: x-large;
+    font-weight: bold;
+}
